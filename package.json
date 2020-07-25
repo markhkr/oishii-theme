@@ -1,0 +1,50 @@
+{
+  "name": "oishii-theme",
+  "version": "0.0.1",
+  "displayName": "Oishii Theme",
+  "description": "A very dark and vibrant, modern theme with italicized keywords and operators - By Mark Hkr",
+  "publisher": "markhkr",
+  "author": "Mark Hkr <markhkr@outlook.com>",
+  "maintainers": [
+		"Mark Hkr <k@cyk.mx>"
+	],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markhkr/oishii-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/markhkr/oishii-theme.git/issues"
+  },
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "markhkr",
+    "VSCode",
+    "Themes",
+    "Vibrant",
+    "Operator",
+    "Dark",
+    "Oishi",
+    "Oishii",
+    "modern",
+    "contrast"
+  ],
+  "icon": "icon.jpg",
+  "galleryBanner": {
+		"color": "#38393c",
+		"theme": "dark"
+	},
+  "contributes": {
+    "themes": [
+        {
+            "label": "Oishii Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/oishii.color-theme.json"
+        }
+    ]
+}
+}
